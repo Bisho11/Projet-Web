@@ -1,0 +1,62 @@
+.header {
+    padding: 40px;
+    text-align: center;
+    background-image: url("../images/header.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: rgba(0, 0, 0, 0.93);
+}
+    
+.header h1 {
+      font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(240, 148, 18);
+    
+}
+
+.navbar a {
+    text-align: center;
+    display: inline-block; /* Change the display to block, for responsive reasons (see below) */
+    list-style-type: none;
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+}
+
+.footer {
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: rgb(97, 82, 82); /* Grey background */
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+.row {
+    display: flex;
+   flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+.side {
+    flex: 50%; /* Set the width of the sidebar */
+   padding: 20px; /* Some padding */
+  }
+  
+  /* Main column */
+.main {
+   flex: 50%; /* Set the width of the main content */
+   padding: 20px; /* Some padding */
+  }
