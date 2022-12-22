@@ -60,3 +60,60 @@
    flex: 50%; /* Set the width of the main content */
    padding: 20px; /* Some padding */
   }
+
+  .site-header {
+    background-image: url("https://www.bgcconejo.org/wp-content/uploads/2017/01/Fotolia_107847708_Subscription_XL.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    position: relative;
+}
+
+   
+.site-header .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .white-text{
+    color: aliceblue;
+    opacity: 1;
+
+  }
+  .sub{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px  black;
+    font-family: "Papyrus","Copperplate", "Fantasy";
+  }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 20px;
+  gap: 10PX
+  ;
+}
+
+.desfood{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.price-tag{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: larger;
+}
+
+.numberofreviews{
+    font-family: "Times New Roman", Times, serif;
+    font-size: larger;
+}
+.Meal-intro{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 200;
+    font-size: larger;
+    align-self: start;
+}
+ 
