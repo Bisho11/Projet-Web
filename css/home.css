@@ -129,4 +129,11 @@
     font-size: larger;
     align-self: start;
 }
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #d08017;
+  color: white;
+}
  
