@@ -1,15 +1,28 @@
 .header {
     padding: 40px;
     text-align: center;
-    background-image: url("../images/header.jpeg");
+    background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     color: rgba(0, 0, 0, 0.93);
 }
-    
-.header h1 {
-      font-size: 40px;
+
+.header h1{
+
+  color: rgb(182, 130, 0);
+  font-family: 'Great Vibes';
+  font-size: 70px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-bottom: 0px;
 }
+
+.header p{
+  margin-bottom: .5rem;
+  font-family: sans-serif;
+  font-size: 30px;
+  color:rgb(226, 93, 93);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}   
 
 .navbar {
     overflow: hidden;
@@ -19,75 +32,75 @@
 
 .navbar a {
     text-align: center;
-    display: inline-block; /* Change the display to block, for responsive reasons (see below) */
+    display: inline-block;
     list-style-type: none;
-    color: white; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
-    text-decoration: none; /* Remove underline */
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
 }
 
 .navbar a:hover {
-    background-color: #ddd; /* Grey background color */
-    color: black; /* Black text color */
+    background-color: #ddd;
+    color: black;
 }
 
 .footer {
-    padding: 20px; /* Some padding */
-    text-align: center; /* Center text*/
-    background: rgb(97, 82, 82); /* Grey background */
+    padding: 20px;
+    text-align: center; 
+    background: rgb(97, 82, 82);
 }
 
 * {
     box-sizing: border-box;
   }
   
-  /* Column container */
-.row {
+
+.footer_row {
     display: flex;
    flex-wrap: wrap;
   }
   
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
-.side {
-    flex: 50%; /* Set the width of the sidebar */
-   padding: 20px; /* Some padding */
+
+.footerleft {
+    flex: 50%; 
+   padding: 20px;
   }
   
-  /* Main column */
-.main {
-   flex: 50%; /* Set the width of the main content */
-   padding: 20px; /* Some padding */
+ 
+.footerright {
+   flex: 50%;
+   padding: 20px;
   }
 
-  .site-header {
-    background-image: url("https://www.bgcconejo.org/wp-content/uploads/2017/01/Fotolia_107847708_Subscription_XL.jpg");
+.menu-header {
+    /*background-image: url("https://www.bgcconejo.org/wp-content/uploads/2017/01/Fotolia_107847708_Subscription_XL.jpg");
     background-position: center;
     background-size: cover;
     padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-bottom: 10rem;*/
     text-align: center;
     position: relative;
 }
 
    
-.site-header .container {
+.menu-header .container {
     position: relative;
     z-index: 2;
   }
 
-  .white-text{
-    color: aliceblue;
+.white-text{
+    color: rgb(96, 97, 97);
     opacity: 1;
+    font-family: serif;
 
   }
-  .sub{
-    color: aliceblue;
+.sub{
+    color: rgb(55, 57, 58);
     text-shadow: 2px 2px 5px  black;
     font-family: "Papyrus","Copperplate", "Fantasy";
   }
-.row{
+.row{ 
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
