@@ -26,6 +26,75 @@
     <a href="about.html">about</a>
   </div>
 
+  <div class="reserver">
+    <button id="open-modal">Reserver Maintenant!</button>
+    <div id="modal-overlay">
+      <div id="modal">
+            
+        <div class="modal-header">
+          <h2>Reserver votre table</h2>
+        </div>
+
+        <div class="modal-content">
+          <form>
+            <div class = "form-row">
+                <select name = "days">
+                    <option value = "day-select">Selectionner Le Jour</option>
+                    <option value = "sunday">Lundi</option>
+                    <option value = "monday">Mardi</option>
+                    <option value = "tuesday">Mercredi</option>
+                    <option value = "wednesday">Jeudi</option>
+                    <option value = "thursday">Vendredi</option>
+                    <option value = "friday">Samedi</option>
+                    <option value = "saturday">Dimanche</option>
+                </select>
+
+                <select name = "hours">
+                    <option value = "hour-select">Selectionner l'Heure</option>
+                    <option value = "10">10: 00</option>
+                    <option value = "10">12: 00</option>
+                    <option value = "10">14: 00</option>
+                    <option value = "10">16: 00</option>
+                    <option value = "10">18: 00</option>
+                    <option value = "10">20: 00</option>
+                    <option value = "10">22: 00</option>
+                </select>
+            </div>
+
+            <div class = "form-row">
+                <input type = "text" placeholder="Numero du Téléphone">
+            </div>
+
+            <div class = "form-row">
+                <input type = "number" placeholder="Combien de personnes?" min = "1">
+                <input type = "submit" value = "Réserver">
+            </div>
+        </form> 
+
+
+
+        </div>
+  
+        <div class="modal-footer">
+          <button id="close-modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="platdujour">
+    <h2>Plat du jour</h2>
+    <div class="plat">
+      <div class="image">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Tiramisu_-_Raffaele_Diomede.jpg">
+      </div>
+      <div class="text">
+        <p>Élaboré à la fin du XVIe siècle en Toscane, le Tiramisu italien est un dessert intemporel et délicieux, un des classiques de la cuisine qui ravit les papilles des petits et des grands depuis des années.</p>
+      </div>
+    </div>
+  </div>
+
+
   <div class="footer">
     <div class="footer_row">
       <div class="footerleft">
