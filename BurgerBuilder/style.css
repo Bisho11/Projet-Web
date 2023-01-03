@@ -1,0 +1,31 @@
+button {
+    width: 100px;
+    height: 60px;
+    background-size: cover;
+    color: rgb(229, 35, 35);
+    
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 12px;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+
+  image{
+    display: flex;
+  }
+
+  .burger-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
