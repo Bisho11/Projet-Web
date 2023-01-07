@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+  <title>Al-Haitham | Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  </style>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great Vibes">
+     
+  <div class="header">
+    <h1>Al-Haitham</h1>
+    <p>Fresh Food From Sumeru</p>
+  </div> 
+    
+  <div class="navbar">
+    <a href="/">Home</a>
+    <a href="/menu">Menu</a>
+    <a href="/about">about</a>
+  </div>
+
+  <div class="reserver">
+    <button id="open-modal">Reserver Maintenant!</button>
+    <div id="modal-overlay">
+      <div id="modal">
+            
+        <div class="modal-header">
+          <h2>Reserver votre table</h2>
+        </div>
+
+        <div class="modal-content">
+          <form action="/" method="post">
+            <div class = "form-row">
+              
+                <input type = "text" placeholder="Nom complet" name= "fullname">
+                <select name = "days">
+                    <option value = "day-select">Selectionner Le Jour</option>
+                    <option value = "sunday">Lundi</option>
+                    <option value = "monday">Mardi</option>
+                    <option value = "tuesday">Mercredi</option>
+                    <option value = "wednesday">Jeudi</option>
+                    <option value = "thursday">Vendredi</option>
+                    <option value = "friday">Samedi</option>
+                    <option value = "saturday">Dimanche</option>
+                </select>
+
+                <select name = "hours">
+                    <option value = "hour-select">Selectionner l'Heure</option>
+                    <option value = "10">10:00</option>
+                    <option value = "10">12:00</option>
+                    <option value = "10">14:00</option>
+                    <option value = "10">16:00</option>
+                    <option value = "10">18:00</option>
+                    <option value = "10">20:00</option>
+                    <option value = "10">22:00</option>
+                </select>
+            </div>
+
+            <div class = "form-row" >
+                <input type = "text" placeholder="Numero du Téléphone" name="numtele">
+                
+            </div>
+
+            <div class = "form-row">
+                <input type = "number" placeholder="Combien de personnes?" min = "1" name="numperso">
+                <input type = "submit" value = "Réserver" id="submit-button">
+            </div>
+        </form> 
+
+
+
+        </div>
+  
+        <div class="modal-footer">
+          <button id="close-modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="platdujour">
+    <h2>Plat du jour</h2>
+    <div class="plat">
+      <div class="image">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Tiramisu_-_Raffaele_Diomede.jpg">
+      </div>
+      <div class="text">
+        <p>Élaboré à la fin du XVIe siècle en Toscane, le Tiramisu italien est un dessert intemporel et délicieux, un des classiques de la cuisine qui ravit les papilles des petits et des grands depuis des années.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer">
+    <div class="footer_row">
+      <div class="footerleft">
+        <h2>Al-Haitham</h2>
+        <p>Sumeru City, Avidya Forest, Dharma Forest, Sumeru</p>
+      </div>
+      <div class="footerright">
+        <h2>Horaire</h2>
+        <p>09 h 00 - 23 h 00</p>
+      </div>
+    </div>
+
+  </div> 
+
+  <script src="script.js"></script>
+
+</body>
+
