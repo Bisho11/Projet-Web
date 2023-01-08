@@ -27,18 +27,21 @@ app.get('/',(req,res) => {
 
 app.post('/',(req,res) => {
     let fullname =req.body.fullname
+    console.log(fullname)
     
 
     let days = req.body.days
+    console.log(days)
     
     
-    let hours=req.body.hours
-   
+    let hours = req.body.hours
+    console.log(hours)
 
     let numtele= req.body.numtele
-   
+    console.log(numtele)
 
     let numperso = req.body.numperso
+    console.log(numperso)
   
 
     
